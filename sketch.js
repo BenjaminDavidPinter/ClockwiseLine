@@ -1,7 +1,7 @@
 let X = 0;
 let Y = 0;
 
-let radius = 1000000;
+let radius = windowWidth;
 let angle = 10;
 
 let mainPivotX = 300;
