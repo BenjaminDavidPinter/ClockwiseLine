@@ -21,7 +21,7 @@ function setup() {
 function draw() {
 	clear();
 	drawLineOnPivot(mainPivotX, mainPivotY, angle);
-	angle = angle + .05;
+	angle = angle + .002;
 
 	locations.forEach(element => {
 		ellipse(element.x, element.y, 10);
