@@ -1,7 +1,7 @@
 let X = 0;
 let Y = 0;
 
-let radius = 1920;
+let radius = 10000;
 let angle = 10;
 
 let mainPivotX = 300;
