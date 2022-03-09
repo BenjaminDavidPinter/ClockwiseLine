@@ -18,7 +18,7 @@ function setup() {
 	mainPivotY = windowHeight/2;
 	createCanvas(windowWidth, windowHeight);
 	strokeWeight(4);
-	for (let index = 0; index < 4; index++) {
+	for (let index = 0; index < 10; index++) {
 		locations.push({ x: Math.floor(Math.random() * windowWidth), y: Math.floor(Math.random() * windowHeight), tolerance: 0, active: false })		
 	}
 	mainPivotX = locations[2].x;
